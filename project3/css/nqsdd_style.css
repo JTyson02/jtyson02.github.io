@@ -1,0 +1,98 @@
+#town {
+    display: grid;
+    grid-template-columns: [firstspace] 1fr [slot1] 2fr [slot3] 2fr [slot2] 2fr [thirdspace] 1fr;
+    grid-template-rows: [townName] 5vh [row1] 40vh [row2] 20vh [log] 15vh;
+    grid-gap: 10px;
+    border: 1px solid black;
+    background-color: darkgray;
+}
+
+#gameTitle{
+    text-align: center;
+    color:gold;
+}
+
+img {
+    grid-area: 2/3;
+    max-height: 300px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-size: large;
+}
+
+body{
+    background-color: 	#5D2F27;
+}
+
+#playerInfo {
+    grid-area: 3/-2;
+}
+
+button{
+    background-color: 	#B28965;
+}
+
+#log {
+    grid-area: 4 / 2 / span 1 / span 3;
+    overflow: scroll;
+}
+
+#return {
+    grid-area: 3/3;
+}
+
+#leave {
+    grid-area: 3/3;
+}
+
+#heal {
+    grid-area: 2/2;
+}
+
+#sell {
+    grid-area: 2/2;
+}
+
+#buy {
+    grid-area: 2/-3;
+}
+
+#townName {
+    grid-area: 1/3;
+    text-align: center;
+}
+
+#shop {
+    grid-area: 2/-3;
+}
+
+#explore {
+    grid-area: 3/3;
+}
+
+#reset{
+    grid-area: 3/3;
+}
+
+#gameOver{
+    grid-area: 2/3;
+    text-align: center;
+}
+
+#startGame{
+    grid-area: 3/3;
+}
+
+#tutorial {
+    grid-area: 2/2 / span 1 / span 3;
+    text-align: center;
+}
+
+#tavern {
+    grid-area: 2/2;
+}
+

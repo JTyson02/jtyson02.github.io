@@ -1,0 +1,33 @@
+p {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+
+blockquote {
+    text-align: center;
+}
+
+hr {
+    height: 3px;
+        background-color:forestgreen;
+        border: none;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

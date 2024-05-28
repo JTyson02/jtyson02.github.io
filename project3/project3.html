@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Not Quite So Dark Dungeon</title>
+        <link rel="stylesheet" type="text/css" href="css/nqsdd_style.css">
+        <script src="js/nqsdd.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1 id="gameTitle">Not Quite So Dark Dungeon</h1>
+        </header>
+
+        <main>
+
+            <div id="town">
+                <h3 id="townName" hidden>Toman's Hollow</h3>
+                <h1 id="gameOver" hidden>GAME OVER</h1>
+                <p id="tutorial">Welcome to Not Quite So Dark Dungeon. This is a simple text-based adventure that includes auto-battling features. Navigate through the world using the buttons available, name your character (and don't forget to save them frequently!), and explore the wilderness to earn money. Sleep in the tavern to heal and upgrade your stats in the general store! Fighting enemies is a simple auto battler, but beware that they hit back! Down at the bottom of the screen is the Log, where you can find flavortext and interactions. Good luck future Hero!</p>
+                <button id="startGame">Begin</button>
+                <button id="reset" hidden>Reset</button>
+                <img id="townPic" src="images/The_Town_TradingCard.jpg" hidden>
+                <img id="tavernPic" src="images/The_Tavern_TradingCard.jpg" hidden>
+                <img id="shopPic" src="images/The_General_Store_TradingCard.jpg" hidden>
+                <img id="ratPic" src="images/The_Rat_TradingCard.jpg" hidden>
+                <img id="banditPic" src="images/The_Bandit_TradingCard.jpg" hidden>
+                <button id="shop" hidden>Maxine's General Store</button>
+                <button id="tavern" hidden>Rejsende's Tavern</button>
+                <button id="explore" hidden>Explore</button>
+                <button id="leave" hidden>Leave</button>
+                <button id="return" hidden>Go back</button>
+                <button id="heal" hidden>Rest for the night</button>
+                <button id="sell" hidden>Sell</button>
+                <button id="buy" hidden>Buy</button>
+                <div id="playerInfo">
+                    <input id="playerNameINP" type="text" size="10" maxlength="20" autofocus value="Player Name" />
+                    <button id="saveName">Save Character</button>
+                    <p id="HUD"></p>
+                </div>
+                <div id="log"></div>
+            </div>
+
+            
+
+        </main>
+
+    </body>
+        
+</html>
