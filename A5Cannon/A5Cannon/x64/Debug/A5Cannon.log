@@ -1,0 +1,23 @@
+﻿  A5Cannon.cpp
+  GLM: rotate function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: roll function returning degrees is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: pitch function returning degrees is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: yaw function returning degrees is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: angle function returning degrees is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: angleAxis function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+C:\Users\joshu\Documents\GitHub\jtyson02.github.io\A5Cannon\A5Cannon\A5Cannon.cpp(42,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\joshu\Documents\GitHub\jtyson02.github.io\A5Cannon\A5Cannon\A5Cannon.cpp(69,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\joshu\Documents\GitHub\jtyson02.github.io\A5Cannon\A5Cannon\A5Cannon.cpp(271,44): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\joshu\Documents\GitHub\jtyson02.github.io\A5Cannon\A5Cannon\A5Cannon.cpp(293,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\joshu\Documents\GitHub\jtyson02.github.io\A5Cannon\A5Cannon\A5Cannon.cpp(304,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\joshu\Documents\GitHub\jtyson02.github.io\A5Cannon\A5Cannon\A5Cannon.cpp(330,26): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\joshu\Documents\GitHub\jtyson02.github.io\A5Cannon\A5Cannon\A5Cannon.cpp(330,26): warning C4244:         with
+C:\Users\joshu\Documents\GitHub\jtyson02.github.io\A5Cannon\A5Cannon\A5Cannon.cpp(330,26): warning C4244:         [
+C:\Users\joshu\Documents\GitHub\jtyson02.github.io\A5Cannon\A5Cannon\A5Cannon.cpp(330,26): warning C4244:             T=float
+C:\Users\joshu\Documents\GitHub\jtyson02.github.io\A5Cannon\A5Cannon\A5Cannon.cpp(330,26): warning C4244:         ]
+C:\Users\joshu\Documents\GitHub\jtyson02.github.io\A5Cannon\A5Cannon\A5Cannon.cpp(331,26): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\joshu\Documents\GitHub\jtyson02.github.io\A5Cannon\A5Cannon\A5Cannon.cpp(331,26): warning C4244:         with
+C:\Users\joshu\Documents\GitHub\jtyson02.github.io\A5Cannon\A5Cannon\A5Cannon.cpp(331,26): warning C4244:         [
+C:\Users\joshu\Documents\GitHub\jtyson02.github.io\A5Cannon\A5Cannon\A5Cannon.cpp(331,26): warning C4244:             T=float
+C:\Users\joshu\Documents\GitHub\jtyson02.github.io\A5Cannon\A5Cannon\A5Cannon.cpp(331,26): warning C4244:         ]
+  A5Cannon.vcxproj -> C:\Users\joshu\Documents\GitHub\jtyson02.github.io\A5Cannon\x64\Debug\A5Cannon.exe
